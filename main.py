@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Use uma das duas opções abaixo para o caminho do arquivo
-url = r"C:\Users\flavi\PycharmProjects\MachineLearning\solicitacoescredito.csv"
+url = "https://raw.githubusercontent.com/Flavicentin/CreditoML/main/solicitacoescredito.csv"
 
 # Lê e carrega o arquivo para a memória
 df = pd.read_csv(url)
